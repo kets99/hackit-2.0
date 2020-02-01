@@ -5,8 +5,7 @@
   "main": "simple.js",
   "scripts": {
        "start" : "node express.js"
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+   },
   "author": "",
   "license": "ISC",
   "dependencies": {
