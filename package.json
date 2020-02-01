@@ -4,6 +4,7 @@
   "description": "A series of examples showing how Node cluster module can be used to improve performance and reliability",
   "main": "simple.js",
   "scripts": {
+       "start" : "node express.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
