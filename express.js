@@ -65,7 +65,7 @@ image2base64("picture.png") // you can also to use url
   http.createServer(function(req, res) {
     res.writeHead(200, {'Content-Type': 'image/jpeg'});
     res.end(data); // Send the file data to the browser.
-  }).listen(3000);
+  }).listen(process.env.PORT);
   console.log('Server running at http://localhost:8124/');
 });
 		}
