@@ -16,8 +16,8 @@ var http = require('http'), fs = require('fs');
 const { Client } = require('pg');
 
 const client = new Client({
-  connectionString: process.env.postgres://huefwoizucxopu:cf76f98b1fd810d90aa8d490e006e43e01f5bd2220ce056120f2c2ed0a961e6e@ec2-3-210-157-123.compute-1.amazonaws.com:5432/desvnetaeegn3c,
-  ssl: true,
+  connectionString: process.env.DATABASE_URL,
+	ssl: true,
 });
 
 client.connect();
